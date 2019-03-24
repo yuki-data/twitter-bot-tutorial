@@ -9,7 +9,7 @@ Heroku上で常時可動させることを前提に、必要ファイル(Procfil
 
 # HerokuでのAPIキーの設定
 
-heroku config:set CONSUMER_KEY=""
-heroku config:set CONSUMER_SECRET=""
-heroku config:set ACCESS_TOKEN=""
-heroku config:set ACCESS_SECRET=""
+- heroku config:set CONSUMER_KEY=""
+- heroku config:set CONSUMER_SECRET=""
+- heroku config:set ACCESS_TOKEN=""
+- heroku config:set ACCESS_SECRET=""
